@@ -1,0 +1,17 @@
+/* signup page styles */
+/* .signup-form {
+  margin: 6rem auto;
+  padding: 4rem;
+} */
+
+.signup-form span {
+  display: block;
+  margin-bottom: 0.6rem;
+}
+
+.signup-form input {
+  padding: 0.8rem 0.6rem;
+  font-size: 1.4rem;
+  color: #777;
+  width: 100%;
+}

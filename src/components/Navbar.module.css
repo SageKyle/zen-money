@@ -1,0 +1,36 @@
+/* navbar styles */
+.navbar {
+  width: 100%;
+  background-color: #effaf0;
+  padding: 2rem 4rem;
+  box-sizing: border-box;
+}
+
+.navbar ul {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  align-items: center;
+}
+
+.title {
+  margin-right: auto;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  font-size: 2rem;
+  color: #1f9751;
+}
+
+.navbar button,
+.navbar a {
+  margin-left: 1.6rem;
+}
+
+.navbar-link {
+  color: #333;
+}
+
+.navbar-link:hover {
+  color: #1f9751;
+  font-size: 1.8rem;
+}
