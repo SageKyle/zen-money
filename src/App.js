@@ -8,7 +8,7 @@ import Login from './pages/login/Login';
 import Signup from './pages/signup/Signup';
 
 function App() {
-  const { authIsReady } = useAuthContext();
+  const { authIsReady, user } = useAuthContext();
 
   return (
     <div className="App">
